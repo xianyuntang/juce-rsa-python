@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as f:
 
 setuptools.setup(
     name="juce-rsa-python",
-    version="0.0.1",
+    version="0.0.4",
     author="xt1800i",
     author_email="xt1800i@example.com",
     description="A juce RSA algorithm implementation without compiling C++ source code",

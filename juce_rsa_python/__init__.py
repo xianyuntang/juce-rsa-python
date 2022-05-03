@@ -14,7 +14,6 @@ class JuceRSA(object):
 
     def apply_to_value(self, value):
         result = 0
-
         while value:
             result *= self._part2
             div = divmod(value, self._part2)
@@ -23,7 +22,6 @@ class JuceRSA(object):
 
             remainder = pow(remainder, self._part1, self._part2)
             result += remainder
-
         return result
 
     def encrypt(self, value: str):
